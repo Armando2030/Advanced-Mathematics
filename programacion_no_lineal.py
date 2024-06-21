@@ -192,4 +192,4 @@ def menu():
     if metodo:
         punto_optimo, posiciones = metodo(tol, nIter, x0)
         print("Punto óptimo: ", punto_optimo)
-        #direcciones_punto(f, posiciones, f'Método {num_metodo}')
+        ##direcciones_punto(f, posiciones, f'Método {num_metodo}')
